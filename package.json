@@ -1,0 +1,31 @@
+{
+  "name": "tung-chatbot",
+  "version": "0.0.1",
+  "description": "a chatbot to convert the language of a conversation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonnygwi/tung-chatbot.git"
+  },
+  "author": "Jonny Gwillim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonnygwi/tung-chatbot/issues"
+  },
+  "homepage": "https://github.com/Jonnygwi/tung-chatbot#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^0.5.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "firebase": "^3.6.3",
+    "firebase-admin": "^4.0.3",
+    "foreman": "^2.0.0",
+    "google-cloud": "^0.44.0",
+    "http": "0.0.0",
+    "request": "2.78.0"
+  }
+}
